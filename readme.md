@@ -3,8 +3,14 @@
 
 this is a react native project that simply allows you to input a url that you would like to be hosted by an app. 
 
+## Setup
 
-
+to change the hosted website, run the following command in root of the project
+```
+cp .envTmpl .env
+```
+then update the .env files variable to whatever url you want to use. 
+voila!
 ## Authors
 
 - [@nethmaison](https://www.github.com/nmaison88)
